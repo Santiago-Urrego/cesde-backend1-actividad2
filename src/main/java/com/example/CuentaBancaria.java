@@ -29,6 +29,10 @@ public class CuentaBancaria {
         return saldo;
     } 
 
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+
     public void depositar(double cantidad) { // Método para depositar dinero
         if (cantidad > 0) {
             saldo += cantidad;
